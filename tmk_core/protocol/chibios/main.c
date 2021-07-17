@@ -144,7 +144,7 @@ int main(void) {
     halInit();
     chSysInit();
 
-    wait_ms(5000);
+    // wait_ms(500);
 
     // TESTING
     // chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO, Thread1, NULL);
